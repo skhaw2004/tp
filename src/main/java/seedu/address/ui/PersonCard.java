@@ -9,6 +9,8 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Region;
 import seedu.address.model.person.Person;
 
+import javax.swing.text.LabelView;
+
 /**
  * A UI component that displays information of a {@code Person}.
  */
@@ -38,6 +40,8 @@ public class PersonCard extends UiPart<Region> {
     private Label address;
     @FXML
     private Label email;
+    @FXML
+    private Label remark;
     @FXML
     private FlowPane tags;
 
